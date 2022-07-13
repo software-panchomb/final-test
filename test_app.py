@@ -1,3 +1,7 @@
-from app import func
+import app
 def test_first():
-    assert func() == 1
+    assert app.func() == 1
+
+def test_second():
+
+    assert app.func2() == 11
